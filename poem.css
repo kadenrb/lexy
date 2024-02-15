@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fde4e4;
+    /* Light pink background */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #ff0080;
+    /* Hot pink text */
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.pea {
+    color: #333;
+    /* Dark text */
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.signature {
+    font-style: italic;
+}

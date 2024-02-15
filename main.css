@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    animation: pinkToRed 18s infinite alternate;
+}
+
+header {
+    background-color: pink;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.image {
+    margin: 2vw;
+    width: 25vw;
+    height: 35vw;
+    justify-content: center;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: pink;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.website-list {
+    padding: 0;
+}
+
+.website-list li {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.website-list li:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.website-link {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: pinkToRed 18s infinite alternate;
+
+    transition: background-color 3s ease;
+    text-align: center;
+}
+
+.website-link:hover {
+    background-color: pink;
+}
+
+.secret {
+    font-size: x-small;
+    font-family: fantasy;
+}
+
+@keyframes pinkToRed {
+    0% {
+        background-color: pink;
+    }
+
+    100% {
+        background-color: rgb(243, 127, 127);
+    }
+}
